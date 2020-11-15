@@ -1,0 +1,396 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+select#selectnav1 {
+    display: none;
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #container {
+    max-width: 95%;
+  }
+
+
+  .menu_wrapper ul {
+    display: none;
+}
+
+.menu_wrapper {
+	width: 0px;
+}
+
+select#selectnav1 {
+	display: block;
+    margin-bottom: 50px;
+    background: #333333;
+    color: white;
+    height: 100%;
+	border: 0px solid;
+	border-radius: 11px 21px 4px 21px;
+}
+
+  #hero_area .left_photo {
+    width: 55%;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  #hero_area .right_content {
+    width: 42%;
+  }
+
+  #hero_area .right_content h2 {
+    font-size: 50px;
+  }
+
+  .work_area_wrapper h2 {
+    font-size: 18px;
+  }
+  .footer_area_wrapper h2 {
+    font-size: 12px;
+  }
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+  #container {
+    max-width: 98%;
+  }
+
+  .menu_wrapper ul {
+    display: none;
+}
+
+.menu_wrapper {
+	width: 0px;
+}
+
+select#selectnav1 {
+	display: block;
+    margin-bottom: 50px;
+    background: #333333;
+    color: white;
+    height: 100%;
+	border: 0px solid;
+	border-radius: 11px 21px 4px 21px;
+}
+
+  .top_header_wrapper {
+    text-align: center;
+  }
+
+  .top_header_wrapper .head_menu {
+    float: none;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .top_header_wrapper .search_box {
+    float: none;
+    display: inline-block;
+  }
+
+  #hero_area .left_photo {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    float: none;
+    width: auto;
+  }
+
+  #hero_area .right_content {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  #hero_area .right_content h2 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  #hero_area .right_content a {
+    float: none;
+  }
+
+  .work_area_wrapper h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .work_area_wrapper .clients_area h2 {
+    margin-bottom: -5px;
+  }
+
+  .work_area_wrapper .about_area img {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .work_area_wrapper a {
+    float: none;
+    display: block;
+  }
+
+  .footer_area_wrapper .childe_3 .childe3_wrapper a {
+    float: none;
+  }
+
+  .footer_area_wrapper h2 {
+    font-size: 12px;
+  }
+
+  .work_area_wrapper {
+    display: block;
+  }
+
+  .footer_area_wrapper {
+    display: block;
+  }
+
+  .footer_area_wrapper .childe_4 .childe4_wrapper form input {
+    display: block;
+  }
+
+  #copyright_area h3 {
+    float: none;
+    text-align: center;
+  }
+
+  #copyright_area .editorname {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .work_area_wrapper .servic_area_wrapper .servic_area {
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #container {
+    max-width: 98%;
+  }
+
+  .menu_wrapper ul {
+    display: none;
+}
+
+.menu_wrapper {
+	width: 0px;
+}
+
+select#selectnav1 {
+	display: block;
+    margin-bottom: 50px;
+    background: #333333;
+    color: white;
+    height: 100%;
+	border: 0px solid;
+	border-radius: 11px 21px 4px 21px;
+}
+
+  .top_header_wrapper {
+    text-align: center;
+  }
+
+  .top_header_wrapper .head_menu {
+    float: none;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  .top_header_wrapper .search_box {
+    float: none;
+    display: inline-block;
+  }
+
+  #hero_area .left_photo {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    float: none;
+    width: auto;
+  }
+
+  #hero_area .right_content {
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  #hero_area .right_content h2 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  #hero_area .right_content a {
+    float: none;
+  }
+
+  .work_area_wrapper h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .work_area_wrapper .clients_area h2 {
+    margin-bottom: -5px;
+  }
+
+  .work_area_wrapper .about_area img {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .work_area_wrapper a {
+    float: none;
+    display: block;
+  }
+
+  .footer_area_wrapper .childe_3 .childe3_wrapper a {
+    float: none;
+  }
+
+  .footer_area_wrapper h2 {
+    font-size: 12px;
+  }
+
+  .work_area_wrapper {
+    display: block;
+  }
+
+  .footer_area_wrapper {
+    display: block;
+  }
+
+  .footer_area_wrapper .childe_4 .childe4_wrapper form input {
+    display: block;
+  }
+
+  #copyright_area h3 {
+    float: none;
+    text-align: center;
+  }
+
+  #copyright_area .editorname {
+    float: none;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .work_area_wrapper .servic_area_wrapper .servic_area {
+    margin-bottom: 25px;
+    display: inline-block;
+  }
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+#container {
+	max-width: 98%;
+}
+
+.menu_wrapper ul {
+    display: none;
+}
+
+.menu_wrapper {
+	width: 0px;
+}
+
+select#selectnav1 {
+	display: block;
+    margin-bottom: 50px;
+    background: #333333;
+    color: white;
+    height: 100%;
+	border: 0px solid;
+	border-radius: 11px 21px 4px 21px;
+}
+
+
+#main_slaider {
+    display: none;
+}
+
+
+.main_header .logo {
+    width: 100%;
+    float: none;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.main_header .socail_icon {
+    width: 100%;
+	float: none;
+	text-align: center;
+}
+
+.main_header .socail_icon ul {
+	display: inline-block;
+	float: none;
+}
+
+.main_header .socail_icon ul li a {
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+}
+
+.main_header .socail_icon ul li {
+    margin-right: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+}
